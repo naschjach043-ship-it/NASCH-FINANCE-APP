@@ -1,0 +1,18 @@
+{
+  "name": "NASCH FINANCE",
+  "short_name": "NASCH",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f8f5",
+  "theme_color": "#087f5b",
+  "description": "Tu dinero, bajo control.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

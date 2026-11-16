@@ -1,0 +1,18 @@
+NASCH FINANCE - proyecto preparado para GitHub Actions + Android APK
+
+PASOS
+1. Crea un repositorio nuevo en GitHub llamado NASCH-FINANCE.
+2. Sube el CONTENIDO de esta carpeta al repositorio (incluida la carpeta oculta .github).
+3. En GitHub, abre la pestaña Actions. Si te pide habilitar workflows, acepta.
+4. El workflow "Build NASCH FINANCE APK" se ejecuta al subir a main o puedes ejecutarlo desde Actions > Run workflow.
+5. Cuando termine correctamente, abre la ejecución y descarga el artefacto NASCH-FINANCE-APK.
+6. Descomprime el artefacto y encontrarás app-debug.apk para instalar en Android.
+
+DATOS TÉCNICOS
+- Capacitor 7, aplicación Android: com.nasch.finance
+- El APK de este flujo es DEBUG, adecuado para pruebas e instalación manual.
+- No es todavía una versión de Play Store ni una APK de release firmada.
+- Para futuras actualizaciones sobre la misma instalación habrá que configurar una clave de firma release estable y guardarla de forma segura en GitHub Secrets.
+- No cambies el appId una vez que empieces a usar esta APK.
+- Los datos locales viven dentro del almacenamiento de la aplicación. Desinstalarla puede borrarlos.
+- No desinstales ni modifiques la antigua NASCH FINANCE.

@@ -1,0 +1,6 @@
+{
+  "appId": "com.nasch.finance",
+  "appName": "NASCH FINANCE",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
